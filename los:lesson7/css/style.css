@@ -30,7 +30,7 @@
     justify-content: space-around;
 }
 .right img{
-    width:580px ;
+    max-width:580px ;
     height:400px ;
 }
 .left {
@@ -79,12 +79,11 @@
     margin-top: 78px;
 }
 .text-block {
-    width: 100%;
+    max-width: 712px;
     margin: 0 auto;
     text-align: center;
 }
 .text-block p {
-    width: 712px;
     margin: 0 auto;
     text-align: center;
 }
@@ -158,4 +157,7 @@
 }
 .box:nth-child(6) {
     background: linear-gradient(#FF8088,#804044);
+}
+.bar {
+    display: none;
 }
